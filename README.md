@@ -1,4 +1,4 @@
-## WordPress+Nginx+PHP-FPM Deployment
+## WordPress+Nginx+PHP7.0-FPM Deployment
 
 - Requires Ansible 1.2 or newer
 - Expects Ubuntu Trusty (14.04) hosts
@@ -21,7 +21,7 @@ is complete, you can hit access server to begin the WordPress configuration.
 Here are some ideas for ways that these playbooks could be extended:
 
 - Parameterize the WordPress deployment to handle multi-site configurations.
-- Separate the components (PHP-FPM, MySQL, Nginx) onto separate hosts and
+- Separate the components (PHP7.0-FPM, MySQL, Nginx) onto separate hosts and
 handle the configuration appropriately.
 - Handle WordPress upgrades automatically.
 
